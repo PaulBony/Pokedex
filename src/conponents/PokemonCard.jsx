@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 function PokemonCard({ pokemon }) {
-  if (!pokemon) return null; // Ajoutez une vérification pour éviter des erreurs si pokemon est undefined
+  if (!pokemon) return null;
 
   return (
     <div className="pokemon-card">
